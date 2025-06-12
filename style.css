@@ -31,7 +31,7 @@ tr{
 
 td{
     width: 25%;
-    aspect-ratio: 1 / 1;
+    height: calc(25vw*0.8);
     padding-top: 31.25%;
     position: relative;
     padding: 0;
