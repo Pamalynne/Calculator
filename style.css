@@ -36,6 +36,7 @@ td{
     font-size: 2.5em;
     cursor: pointer;
     transition: transform 0.1s ease, box-shadow 0.1s ease;
+    touch-action: manipulation;    
 }
 
 td:hover {
