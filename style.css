@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+table{
+    background-color: #4D4D4D;
+    color: white;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 16px;
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
+
+tr{
+    height: 80px;
+
+td{
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+#inputbox{
+    background-color: #CDE3A5;
+    text-align: right;
+    width: 100%;
+    font-size: 2.5em;
+    color: #4D4D4D;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.digitbutton{
+    background-color: #808080;
+    border-radius: 5px;
+}
+
+.opbutton{
+    background-color: #65C7D0;
+    border-radius: 5px;
+}
+
+.equalsbutton{
+    background-color: #E95D5E;
+}
